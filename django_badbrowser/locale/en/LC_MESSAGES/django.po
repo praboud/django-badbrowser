@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-02 12:28+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/django_badbrowser/base.html:7
+msgid "Unsupported browser"
+msgstr "Unsupported browser"
+
+#: templates/django_badbrowser/unsupported.html:83
+msgid "Unsupported web browser"
+msgstr "Unsupported web browser"
+
+#: templates/django_badbrowser/unsupported.html:85
+msgid ""
+"Thank you much for coming by, but unfortunately we are unable to support "
+"your web browser."
+msgstr ""
+"Thank you much for coming by, but unfortunately we are unable to support "
+"your web browser."
+
+#: templates/django_badbrowser/unsupported.html:89
+msgid "We recommend the latest version of any of these browsers"
+msgstr "We recommend the latest version of any of these browsers"
+
+#: templates/django_badbrowser/unsupported.html:135
+msgid "You may"
+msgstr "You may"
+
+#: templates/django_badbrowser/unsupported.html:135
+msgid "ignore this warning"
+msgstr "ignore this warning"
+
+#: templates/django_badbrowser/unsupported.html:135
+msgid "at your own peril."
+msgstr "at your own peril."
