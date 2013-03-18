@@ -11,8 +11,10 @@ def unsupported(request):
         "STATIC_URL": settings.STATIC_URL,
         "base_template": getattr(settings, "BADBROWSER_BASE_TEMPLATE", "django_badbrowser/base.html")
     }
+
+    template = getattr(settings, "BADBROWSER_UNSUPPORTED_TEMPLATE", "django_badbrowser/unsupported.html")
     
-    return render_to_response("django_badbrowser/unsupported.html", context)
+    return render_to_response(template, context)
 
 def ignore(request):
     response = HttpResponseRedirect(request.GET.get("next", "") or "/")
